@@ -1,169 +1,146 @@
-LANKOR – Student Talent Discovery & Team Collaboration Platform
-Founder & CEO: Navaneethan P
+<div align="center">
 
-Lankor is a student-first talent discovery platform built to replace useless resumes with verified skills, real projects, and teamwork history.
-It connects students ↔ HRs ↔ companies through a clean, practical system that shows only real capability.
+# 🏢 Workers Club
 
-⭐ What Lankor Solves
+### *The anti-resume for student builders*
 
-Students don’t have proof of skills → Lankor provides verified project portfolios.
+<p>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/License-See%20Repo-blue?style=flat-square" />
+  <img src="https://img.shields.io/github/stars/Navaneethan-P/workers_club?style=flat-square&color=yellow" />
+  <img src="https://img.shields.io/github/forks/Navaneethan-P/workers_club?style=flat-square" />
+  <img src="https://img.shields.io/github/issues/Navaneethan-P/workers_club?style=flat-square&color=red" />
+</p>
 
-HRs waste time on fake resumes → Lankor filters talent by real skills & experience.
+> **Workers Club** is a student-talent discovery platform — a lightweight, practical alternative to LinkedIn focused entirely on **skills, projects, and team-based work**, not useless certificates or inflated bio lines.
+>
+> Built to bridge the gap between students and companies — especially IT and tech recruiters who want **real skill proof**, not vague resumes.
 
-Students struggle to form teams → Lankor provides a full team collaboration system.
+</div>
 
-Companies need fast, clean recruitment → Lankor gives one-click access to verified candidates.
+---
 
-🚀 Core Features
-1. Skill & Location Based Talent Search
+## 🎯 The Problem
 
-Recruiters can filter students by:
+- Recruiters drown in resume noise — no signal about *actual* skill
+- Students with real skills get overlooked because they don't "polish" their LinkedIn
+- Existing platforms reward certificates & connections, not real output
+- There's no platform where a company can say: *"Show me what you actually built"*
 
-Tech roles: Frontend, Backend, Fullstack, Cloud, DevOps, AI/ML, Cybersecurity, Database, Mobile, UI/UX
+## ✨ The Solution
 
-Non-Tech roles: Marketing, Content, HR, Operations, Design, Management
+Workers Club lets students **show, not tell**:
 
-Location filters (Example: Chennai, Coimbatore, Bangalore, etc.)
+| Feature | Description |
+|---|---|
+| 🗂️ **Project Showcase** | Upload real project links, GitHub repos, demos |
+| 🏷️ **Skill Tagging** | Tag yourself with actual tech you've used, not what you've read about |
+| 👥 **Team-Based Work** | Show group projects and your role in them |
+| 🔍 **Recruiter Discovery** | Companies filter by real skills, tech stack, and project type |
+| 🎯 **No Fluff** | No endorsements, no buzzwords, no "thought leadership" posts |
 
-The filtered list appears from the Workers directory where recruiters can instantly find:
+---
 
-Tech workers
+## 🛠️ Tech Stack
 
-Non-tech workers
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+</p>
 
-Location-based student lists
+---
 
-2. Verified Project Portfolio
+## 🚀 Getting Started
 
-Every project goes through admin verification before going live.
+### Prerequisites
 
-Each student profile includes:
+- Node.js `v18+`
+- npm or yarn
+- MongoDB (local or Atlas)
 
-Photo
+### Installation
 
-Bio & skills
+```bash
+# 1. Clone the repo
+git clone https://github.com/Navaneethan-P/workers_club.git
+cd workers_club
 
-Experience
+# 2. Install dependencies
+npm install
 
-Verified projects
+# 3. Set up environment variables
+cp .env.example .env
+# Edit .env with your MongoDB URI and config
 
-Team projects
+# 4. Start the development server
+npm run dev
+```
 
-Resume
+The app will be running at `http://localhost:3000`
 
-GitHub, LinkedIn
+---
 
-Ratings & reviews
+## 📁 Project Structure
 
-This ensures zero fake claims.
+```
+workers_club/
+├── client/               # React frontend
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Page-level components
+│   └── assets/           # Static files
+├── server/               # Node.js backend
+│   ├── routes/           # API route handlers
+│   ├── models/           # MongoDB schemas
+│   └── middleware/       # Auth & validation
+├── .env.example          # Environment variable template
+└── README.md
+```
 
-3. Team Collaboration System
+---
 
-Students can:
+## 🗺️ Roadmap
 
-Request team-ups
+- [x] Core platform MVP
+- [x] Student profile creation
+- [x] Project & skill tagging
+- [ ] Recruiter dashboard
+- [ ] Direct messaging between students and recruiters
+- [ ] GitHub integration (auto-import repos)
+- [ ] Team formation feature
+- [ ] Mobile responsive UI
 
-Create project teams
+---
 
-Build projects with members
+## 🤝 Contributing
 
-Show team members on each project card
+Contributions are welcome! This is a project built with a real mission — if you believe in skill-first hiring, jump in.
 
-Earn “teamwork credibility”
+1. Fork the project
+2. Create your branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m 'Add your feature'`
+4. Push: `git push origin feature/your-feature`
+5. Open a Pull Request
 
-This proves real-world collaboration skill — highly valued by HRs.
+---
 
-4. Recruitment-Ready Workflow
+## 👨‍💻 Author
 
-HRs can:
+**Navaneethan P**
+- 🎓 Adhi College of Engineering and Technology, Tamil Nadu
+- 🌐 [Portfolio](https://navaneethan-p.netlify.app/)
+- 💼 [LinkedIn](https://linkedin.com/in/navaneethan-p)
+- 📧 navaneethan2005.official@gmail.com
 
-One-click contact students
+---
 
-Filter by skills / role / location
+<div align="center">
 
-Review verified project history
+**⭐ If you believe skill > resume, star this repo ⭐**
 
-Download resumes
+*Built with frustration and a lot of coffee ☕*
 
-View GitHub/LinkedIn
-
-Rate or review students
-
-Contact multiple candidates at once
-
-Lankor acts like a mini ATS + portfolio system.
-
-5. OTP-Only Login
-
-No passwords, no reset workflows.
-Just clean OTP-based login → safer & faster.
-
-6. Notification System
-
-Admin receives email notifications on every:
-
-New registration
-
-New project submission
-
-Team request
-
-Profile update
-
-Admin approval
-
-🧩 Workers Directory
-
-A dedicated section where HRs can:
-
-Filter Tech or Non-Tech workers
-
-Filter by location
-
-View complete verified profiles
-
-This helps companies find the exact talent they need instantly.
-
-📦 Tech Stack
-
-Frontend: HTML, CSS, JS (or UI Bakery / Replit version)
-
-Backend (optional): Node.js / Firebase / Replit DB
-
-Auth: OTP-based
-
-Hosting: Replit / Cloud deployment
-
-🛠️ How Students Use Lankor
-
-Create profile
-
-Add projects
-
-Team up with others
-
-Get verified
-
-Get discovered by HRs
-
-🛠️ How HRs Use Lankor
-
-Choose skill filter
-
-Choose location
-
-View verified profiles
-
-Download resume / contact instantly
-
-🌐 Vision
-
-To build a trusted ecosystem where:
-
-Students prove skills
-
-Companies hire based on real ability
-
-Colleges improve placement performance
-
-Everyone wins
+</div>
